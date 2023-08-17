@@ -16,5 +16,15 @@ namespace AppGaleria.Paginas.NavPaginas
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Btn_Avançar(object sender, EventArgs e)
+        {
+			Navigation.PushAsync(new NavigationPage(new Pagina2()));
+        }
+
+        private void Btn_Cancelar(object sender, EventArgs e)
+        {
+			System.Environment.Exit(0);
+        }
+    }
 }

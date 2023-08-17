@@ -16,8 +16,8 @@
 
             <StackLayout>
                 <!--Botões-->
-                <Button Text="Login" CornerRadius="100" Margin="130,0"/>
-                <Button Text="Cancelar" CornerRadius="100" Margin="130,0"/>
+                <Button Text="Login" Clicked="Btn_Avançar" CornerRadius="100" Margin="130,0"/>
+                <Button Text="Cancelar" Clicked="Btn_Cancelar" CornerRadius="100" Margin="130,0"/>
             </StackLayout>
 
 
