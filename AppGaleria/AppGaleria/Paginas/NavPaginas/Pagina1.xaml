@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Pagina 01"
+             x:Class="AppGaleria.Paginas.NavPaginas.Pagina1">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Cabeçalho-->
+
+            <Label Text="Cadastro"
+                   FontSize="25"
+                   HorizontalOptions="Center"
+                   Margin="10,25"/>
+
+
+
+            <StackLayout>
+                <!--Botões-->
+                <Button Text="Login" CornerRadius="100" Margin="130,0"/>
+                <Button Text="Cancelar" CornerRadius="100" Margin="130,0"/>
+            </StackLayout>
+
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

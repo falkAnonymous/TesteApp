@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppGaleria.Paginas.NavPaginas.Pagina3">
+    <ContentPage.Content>
+        <StackLayout>
+            <!--Cabeçalho-->
+
+            <Label Text="Pagina 03" />
+
+
+
+            <StackLayout>
+                <!--Botões-->
+                <Button Text="" />
+                <Button Text="" />
+            </StackLayout>
+            
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
