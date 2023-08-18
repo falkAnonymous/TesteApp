@@ -12,6 +12,17 @@
                 HorizontalTextAlignment="Center"
                 Margin="10.0"
                 />
+            <Button
+                Text="Reset"
+                Clicked="Resetar"
+                Margin="15,5"
+                CornerRadius="35"
+                BorderColor="Violet"
+                BackgroundColor="HotPink"
+                TextColor="White"
+                
+                
+                />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

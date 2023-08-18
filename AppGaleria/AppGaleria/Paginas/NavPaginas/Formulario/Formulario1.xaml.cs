@@ -16,5 +16,10 @@ namespace AppGaleria.Paginas.NavPaginas.Formulario
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Resetar(object sender, EventArgs e)
+        {
+			App.Current.MainPage = new NavigationPage (new Pagina1());
+        }
+    }
 }

@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 using AppGaleria.Paginas.Conteudos;
 using AppGaleria.Paginas.NavPaginas;
+using AppGaleria.Paginas.Modal;
 
 namespace AppGaleria
 {
@@ -11,7 +12,7 @@ namespace AppGaleria
         public App()
         {
             InitializeComponent();
-            object pagina = new NavigationPage(new Pagina1());
+            object pagina = new NavigationPage(new Mpagina01());
             MainPage = (Page)pagina;
         }
 

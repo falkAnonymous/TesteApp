@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Pagina Principal"
+             x:Class="AppGaleria.Paginas.Modal.Mpagina01">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="Center">
+
+            <StackLayout 
+                BackgroundColor="Red"
+                Padding="10,50"
+                Margin="15,0"
+                >
+
+
+                <Label
+                    Text="Ola Mundo"
+                    HorizontalTextAlignment="Center"
+                    TextColor="White"
+                    FontSize="50"
+                    />
+
+            </StackLayout>
+
+            <StackLayout Margin="15,480,15,0">
+
+                <Button
+                    Text="Modal Up"
+                    Clicked="Btn_Modal"
+                    BackgroundColor="CornflowerBlue"
+                    TextColor="White"
+
+                    
+                    />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
