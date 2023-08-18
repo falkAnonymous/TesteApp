@@ -9,6 +9,8 @@
                 Background="green"
                 Text="Formulario Xamarin"
                 FontSize="50"
+                HorizontalTextAlignment="Center"
+                Margin="10.0"
                 />
         </StackLayout>
     </ContentPage.Content>

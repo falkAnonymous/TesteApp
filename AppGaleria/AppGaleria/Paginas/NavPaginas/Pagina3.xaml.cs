@@ -17,6 +17,7 @@ namespace AppGaleria.Paginas.NavPaginas
 		{
 			InitializeComponent ();
 		}
+
         protected override bool OnBackButtonPressed()
         {
 			return true;
