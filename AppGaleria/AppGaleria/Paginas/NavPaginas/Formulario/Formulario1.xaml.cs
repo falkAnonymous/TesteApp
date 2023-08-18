@@ -7,19 +7,14 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-namespace AppGaleria.Paginas.NavPaginas
+namespace AppGaleria.Paginas.NavPaginas.Formulario
 {
 	[XamlCompilation(XamlCompilationOptions.Compile)]
-	public partial class Pagina2 : ContentPage
+	public partial class Formulario1 : ContentPage
 	{
-		public Pagina2 ()
+		public Formulario1 ()
 		{
 			InitializeComponent ();
 		}
-
-        private void Btn_Avancar(object sender, EventArgs e)
-        {
-			Navigation.PushAsync(new Pagina3());
-        }
-    }
+	}
 }

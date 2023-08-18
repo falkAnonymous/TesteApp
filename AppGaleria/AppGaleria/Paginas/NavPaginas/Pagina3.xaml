@@ -1,22 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             Title="Pagina 03"
+             NavigationPage.HasBackButton="true"
              x:Class="AppGaleria.Paginas.NavPaginas.Pagina3">
     <ContentPage.Content>
         <StackLayout>
             <!--Cabeçalho-->
 
-            <Label Text="Pagina 03" />
+            <Label Text="Pagina Final"
+                   HorizontalTextAlignment="Center"
+                   Padding="25"
+                   FontSize="50"
+                   TextColor="DarkRed"
+            />
 
 
 
-            <StackLayout>
+            
                 <!--Botões-->
-                <Button Text="" />
-                <Button Text="" />
-            </StackLayout>
-            
-            
+            <Button
+                Text="Adc formulario"
+                Clicked="Btn_AdcionarForm"
+                
+                />
+            <Button
+                Text="Rem Formulario"
+                Clicked="Btn_RemoverForm"
+                />
+
+
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

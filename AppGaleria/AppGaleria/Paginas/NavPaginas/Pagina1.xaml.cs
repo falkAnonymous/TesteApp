@@ -19,7 +19,7 @@ namespace AppGaleria.Paginas.NavPaginas
 
         private void Btn_Avançar(object sender, EventArgs e)
         {
-			Navigation.PushAsync(new NavigationPage(new Pagina2()));
+			Navigation.PushAsync(new Pagina2());
         }
 
         private void Btn_Cancelar(object sender, EventArgs e)
