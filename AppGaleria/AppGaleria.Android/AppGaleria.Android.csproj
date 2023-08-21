@@ -162,5 +162,8 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxxhdpi\AdobeStock_498699668_Preview.png" />
   </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\LogoTranparente.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

@@ -7,7 +7,8 @@
 		<bitmap
 			android:src="@drawable/adobestock_498699668_preview"
 			android:tileMode="disabled"
-			android:gravity="center"/>
+			android:gravity="center"
+			/>
 	</item>
 </layer-list>
 

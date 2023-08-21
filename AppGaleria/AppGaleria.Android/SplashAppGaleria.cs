@@ -2,30 +2,28 @@
 using Android.Content;
 using Android.Content.PM;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
-using Android.Widget;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+using System.Threading.Tasks;
 
 namespace AppGaleria.Droid
 {
-    [Activity(Label = "ChatLove",Icon ="@mipmap/ic_launcher", Theme = "@style/MainTheme.Splash", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
+    [Activity(Label = "ChatLove", Icon = "@mipmap/ic_launcher", Theme = "@style/MainTheme.Splash", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation | ConfigChanges.UiMode | ConfigChanges.ScreenLayout | ConfigChanges.SmallestScreenSize)]
     public class SplashAppGaleria : Activity
     {
-        protected override void OnCreate(Bundle savedInstanceState)
+        protected override async void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
-            StartActivity(typeof(SplashAppGaleria));
+
+            // Adicione um atraso de 8 segundos
+            await Task.Delay(8000);
+
+            // Inicie a MainActivity após o atraso
+            StartActivity(typeof(MainActivity));
+
+            // Termine esta atividade
             Finish();
-            
 
-            // Disable activity slide-in animation
+            // Desative a animação de entrada da atividade
             OverridePendingTransition(0, 0);
-
-
         }
     }
 }
