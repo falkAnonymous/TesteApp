@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+            android:TabbedPage.IsSwipePagingEnabled="False"
+            Title="Paginas"
+            android:SwipeView.SwipeTransitionMode="Reveal"
+             x:Class="AppGaleria.Paginas.PaginasGuias.Guiarapida">
+    <!--Pages can be added as references or inline-->
+    <ContentPage Title="Menu" BackgroundColor="Blue">
+
+
+    </ContentPage>
+
+    <ContentPage Title="Favoritos" BackgroundColor="Violet">
+        
+
+    </ContentPage>
+
+
+    <ContentPage Title="FIT" BackgroundColor="Black">
+
+
+
+    </ContentPage>
+
+
+    <ContentPage Title="Chat" BackgroundColor="Green">
+
+
+
+
+    </ContentPage>
+
+
+    <ContentPage Title="Perfil" BackgroundColor="RosyBrown">
+
+
+
+
+    </ContentPage>
+
+
+</TabbedPage>

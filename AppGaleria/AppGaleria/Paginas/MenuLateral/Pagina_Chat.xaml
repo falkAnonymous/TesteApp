@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:conteudo="clr-namespace:AppGaleria.Paginas.MenuLateral"
+            xmlns:Guias ="clr-namespace:AppGaleria.Paginas.PaginasGuias"
+            xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+            NavigationPage.HasNavigationBar="false"
+            android:TabbedPage.ToolbarPlacement="Bottom"
+             x:Class="AppGaleria.Paginas.MenuLateral.Pagina_Chat">
+    <!--MENU-->
+    <FlyoutPage.Flyout>
+
+        <conteudo:MenuPrincipal Title="Menu">
+
+
+        </conteudo:MenuPrincipal>
+
+    </FlyoutPage.Flyout>
+
+
+    <!--CONTEUDO-->
+    <FlyoutPage.Detail>
+
+        <!--Guia-->
+        <NavigationPage>
+            <x:Arguments>
+
+                <Guias:Guiarapida>
+
+                </Guias:Guiarapida>
+            </x:Arguments>
+
+        </NavigationPage>
+
+    </FlyoutPage.Detail>
+</FlyoutPage>
